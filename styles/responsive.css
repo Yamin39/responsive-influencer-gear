@@ -5,6 +5,10 @@
     font-size: 3.5vw;
   }
 
+  header nav {
+    margin-top: 2.125rem;
+  }
+
   nav {
     align-items: center;
     gap: 2rem;
@@ -35,7 +39,8 @@
   }
   
   .banner-content button {
-    display: inline;
+    margin: 0 auto;
+    font-size: 1.5rem;
   }
 
   .banner .banner-content p {
@@ -44,4 +49,12 @@
     font-weight: 500;
     margin: 1rem auto 1.875rem;
   }
+
+  .sponsors {
+    gap: 1.35rem;
+  }
+
+  .sponsors .sponsors-logo {
+    width: 3.5rem;
+  } 
 }
