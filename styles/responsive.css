@@ -1,0 +1,47 @@
+/* mobile devices  */
+
+@media screen and (max-width: 576px) {
+  :root {
+    font-size: 3.5vw;
+  }
+
+  nav {
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .desk-menu-item {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner-content, .banner-img {
+    width: 100%;
+  }
+
+  .banner-content {
+    text-align: center;
+  }
+  
+  .banner-content button {
+    display: inline;
+  }
+
+  .banner .banner-content p {
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 1rem auto 1.875rem;
+  }
+}
