@@ -54,7 +54,7 @@ body {
 }
 
 .primary-btn:hover {
-    background: #b12156;
+  background: #b12156;
 }
 
 img {
@@ -160,10 +160,10 @@ header nav ul li {
 }
 
 .banner .banner-img img {
-    background-image: url(../images/circle-design.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  background-image: url(../images/circle-design.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 /* main style start  */
@@ -176,12 +176,90 @@ header nav ul li {
   gap: 3rem;
   justify-content: space-around;
   align-items: center;
-  border-top: 1px solid #C0CCDA99;
-  border-bottom: 1px solid #C0CCDA99;
+  border-top: 1px solid #c0ccda99;
+  border-bottom: 1px solid #c0ccda99;
   padding: 2.125rem 0;
   margin-top: 4.375rem;
 }
 
 .sponsors-logo {
   width: 6.25rem;
+}
+
+/* Popular Collection section styles start */
+
+.collection .collection-head h2 {
+  color: var(--primary-color);
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 6.25rem 0 1.875rem;
+}
+
+.collection .collection-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.875rem;
+}
+
+.collection .collection-products .card {
+  padding: 1.125rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 10px rgba(184, 184, 184, 0.15);
+}
+
+.collection-products .card h2 {
+  color: #18191f;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.collection-products .card h3 {
+  color: #000000de;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.collection-products .card .rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.collection-products .card .rating-icon {
+  width: 5rem;
+}
+
+.collection-products .card p {
+  color: #5E6366;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.collection-products .card > p {
+  color: #787885;
+  padding-right: 9rem;
+}
+
+/* footer  */
+
+footer {
+  width: 100%;
+  background: #0A0826;
+  text-align: center;
+  padding: 3.125rem 0;
+  margin-top: 3.125rem;
+}
+
+footer .logo, footer p {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
 }
